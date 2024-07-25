@@ -22,13 +22,13 @@ const FloatingNavbar = () => {
         <div className="w-[50%]">
           <FaBars
             onClick={toggleNavbar}
-            className="text-[#294F74] text-[30px] "
+            className="text-[#294F74] text-[30px] cursor-pointer "
           />
         </div>
       </div>
       <div
         className={` absolute  bottom-[-12rem] ${
-          isOpen === true ? "block" : "hidden"
+          isOpen === true ? "block " : "hidden"
         } w-[90%] md:w-[10%] rounded-xl bg-[#294F74] text-white p-6 shadow-lg "
         `}
       >

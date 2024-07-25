@@ -6,8 +6,8 @@ import { CiLinkedin } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <div className="bg-white pt     -10">
-      <div className="bg-[#294F74] pt-5 py-10">
+    <div className="bg-white pt-10">
+      <div className="bg-[#294F74] pt-12 py-10 ">
         <div className="container relative mx-auto bg-white rounded-2xl p-12">
           <div className="flex flex-col md:flex-row justify-between text-[#344054]">
             <div className="w-[100%] md:w-50%">
@@ -53,7 +53,7 @@ const Footer = () => {
             <p>Toronto, ON Canada</p>
             <p>OpenCore. All Rights Reserved</p>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center mt-24">
             <img
               src="/assets/logo.svg"
               alt=""

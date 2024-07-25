@@ -3,7 +3,7 @@ import { FaRocket, FaRegHandshake } from "react-icons/fa";
 
 const IdeasReality = () => {
   return (
-    <div className="bg-white relative py-3">
+    <div className="bg-white relative py-3 pb-12">
       <div className="container mx-auto bg-[#22405C] rounded-3xl relative py-10 md:py-0">
         {/* Icon at the top */}
         <img
@@ -11,7 +11,7 @@ const IdeasReality = () => {
           className="absolute top-1 left-1/2 w-[99%] transform -translate-x-1/2 text-white text-5xl"
         />
 
-        <div className="flex flex-col md:flex-row h-[500px] p-5 justify-between md:justify-center items-center ">
+        <div className="flex flex-col md:flex-row h-[500px] text-white p-5 justify-between md:justify-center items-center ">
           <div className="w-[100%] md:w-[50%] flex-col flex justify-center  md:items-start ">
             <p className="text-[40px] md:text-[60px]">
               <span className="font-normal">
